@@ -1,0 +1,84 @@
+body {
+ background-image: url(background.jpg);
+ background-size: cover;
+}
+
+.contenitore{
+  margin: auto;
+  width: 60%;
+  height: 750px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.centro {
+  margin: auto;
+  width: 80%;
+}
+
+.logo {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+}
+
+header > h2 {
+  text-align: center;
+  font-size: 25px;
+  color: lime;
+}
+
+nav {
+  background-color: lime;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav > button {
+  align-items: center;
+}
+
+main {
+  color: white;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.status {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.load1 {
+  width: 280px;
+  background-color: orange;
+}
+
+.load2 {
+  width: 450px;
+  background-color: green;
+}
+
+.load3 {
+  width: 150px;
+  background-color: red;
+}
+
+.address:before{
+    content: "\21A6";
+}
+
+.distance:before{
+    content: "\002d";
+}
